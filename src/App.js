@@ -1,13 +1,8 @@
 import React from "react";
-import HelloReact from "./components/HelloReact";
+import OmdbContainer from "./components/OmdbContainer";
 
-function App(props) {
-  return (
-    <div>
-      <HelloReact message={props.message} />
-      <HelloReact message={props.message} />
-    </div>
-  );
+function App() {
+  return <OmdbContainer />;
 }
 
 export default App;
